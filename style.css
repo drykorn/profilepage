@@ -1,0 +1,134 @@
+/* Body styles */
+body {
+  background-color: #B8DCE8;
+  font-family: Arial, sans-serif;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+/* Container style */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #B8DCE8;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Card style */
+.card-white {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+  border: 2px solid #7BA7B6;
+}
+
+.card-white:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transform: scale(1.02);
+}
+
+/* Avatar style */
+.avatar {
+  border-radius: 50%;
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #7BA7B6;
+}
+
+/* Heading styles */
+h1, h2 {
+  font-weight: bold;
+  font-family: "Helvetica", Arial, sans-serif;
+  color: #7BA7B6;
+}
+
+h1 {
+  font-size: 30px;
+  line-height: 1.2;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.3;
+  letter-spacing: 1px;
+}
+
+/* Link style */
+a {
+  color: #7BA7B6;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Button container styles */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.button-container a {
+  margin-right: 15px;
+  color: #ffffff;
+  font-size: 16px;
+  background-color: #7BA7B6;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.button-container a:hover {
+  background-color: #B8DCE8;
+}
+
+/* Social medias icons styles */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.social-icons div {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons div a {
+  margin-right: 15px;
+  color: #ffffff;
+  font-size: 30px;
+  background-color: #7BA7B6;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.social-icons div a:hover {
+  background-color: #B8DCE8;
+}
+
+/* responsive part for the different medias and sizes*/
+@media (max-width: 600px) {
+  .container {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+  }
+
+  .card-white {
+    margin: 0;
+    border-radius: 0;
+  }
+}
